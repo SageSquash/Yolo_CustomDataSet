@@ -1,0 +1,8 @@
+# path: /Users/adityaraj/Coding/PersonalProjects/yolo/data
+
+train: /Users/adityaraj/Coding/PersonalProjects/yolo/data/train
+val: /Users/adityaraj/Coding/PersonalProjects/yolo/data/valid
+test: /Users/adityaraj/Coding/PersonalProjects/yolo/data/test
+
+nc: 4
+names: ['harvester', 'person', 'post', 'trunk']

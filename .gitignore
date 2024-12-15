@@ -1,0 +1,56 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual Environments
+venv/
+env/
+*.venv
+.Python
+yolo_env
+
+# Environment Variables
+.env
+.env.local
+*.env.*
+
+# Logs and Debug Files
+*.log
+*.out
+*.err
+*.pid
+*.gz
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Coverage Reports
+htmlcov/
+*.cover
+*.coverage
+*.coverage.*
+
+# VS Code Workspace Settings
+.vscode/
+
+# Mac Specific Files
+*.DS_Store
+.Trash
+
+data
