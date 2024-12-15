@@ -1,10 +1,9 @@
-Here’s an updated README.md with improved formatting and structure. It is designed to be visually clear, easy to read, and organized when viewed on GitHub or any Markdown renderer.
-
-YOLO Model Training and Validation
+**YOLO Model Training and Validation**
 
 A comprehensive pipeline for training, validating, and testing YOLO models with custom datasets. This repository includes scripts for model training, dataset verification, and prediction using the Ultralytics YOLO framework.
 
 Table of Contents
+
 	1.	Project Structure
 	2.	Setup Instructions
 	3.	Usage
@@ -17,17 +16,8 @@ Table of Contents
 	6.	Troubleshooting
 	7.	References
 
-Project Structure
-
-.
-├── main.py               # Script for training the YOLO model
-├── predict.py            # Script for running predictions
-├── verify_dataset.py     # Script for validating the dataset
-├── verify.py             # Script for verifying MPS compatibility
-├── config.yaml           # Dataset configuration file
-└── README.md             # Documentation file
-
 Setup Instructions
+
 	1.	Clone the Repository
 Clone this repository to your local machine:
 
@@ -87,6 +77,7 @@ python verify.py
 Dataset Format
 
 The dataset must follow the YOLO format:
+
 	•	images/: Contains .jpg, .png, etc.
 	•	labels/: Contains .txt files with bounding box annotations.
 	•	config.yaml: Describes the dataset structure and class names.
@@ -106,6 +97,7 @@ names: ['class1', 'class2', 'class3', ..., 'class10']
 Features
 
 Training
+
 	•	Advanced Augmentations:
 	•	Mosaic
 	•	Mixup
@@ -117,24 +109,28 @@ Training
 	•	Confidence and IoU thresholds
 
 Validation
+
 	•	Checks for missing or mismatched labels.
 	•	Reports class distribution and identifies invalid annotations.
 
 Prediction
+
 	•	Generates bounding boxes and saves annotated images for review.
 
 Troubleshooting
 
+
 Common Issues
 
+
 Problem	Solution
+
 Dataset format errors	Run verify_dataset.py to validate dataset.
 Slow training	Reduce epochs or use a smaller image size.
 MPS not available on macOS	Run verify.py to check GPU compatibility.
 
 References
+
 	•	Ultralytics YOLO Documentation
 	•	PyTorch
 	•	Roboflow Tools
-
-This README ensures a professional, clear, and organized presentation. Let me know if further adjustments are needed!
